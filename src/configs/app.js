@@ -7,6 +7,6 @@ const appConfig = {
   },
 };
 const environment = process.env.ENVIRONMENT || "development";
-const resutData = appConfig[environment];
+const resultData = appConfig[environment];
 
-module.exports = resutData;
+module.exports = resultData;
